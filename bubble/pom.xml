@@ -12,7 +12,10 @@
     <artifactId>bubble</artifactId>
 
     <dependencies>
-
+        <dependency>
+            <groupId>com.pantifik.algorithms.sorting</groupId>
+            <artifactId>base</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
