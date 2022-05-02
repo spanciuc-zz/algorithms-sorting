@@ -5,6 +5,11 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Objects;
 
+/**
+ * The selection sort implementation.
+ * <p>
+ * The complexity is O(n*n) average and worst case.
+ */
 public class Selection implements Sorting {
 
   @Override
