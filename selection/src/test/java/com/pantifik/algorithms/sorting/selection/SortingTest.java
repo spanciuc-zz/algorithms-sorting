@@ -59,7 +59,6 @@ class SortingTest {
   void sortAscending_whenParamNotNullAndNotEmpty_shouldSortAscendingAndReturn() {
     var expected = createExpectedAscending();
     var unordered = createUnordered();
-    Arrays.stream(sorting.sortAscending(unordered)).forEach(System.out::println);
     Assertions.assertArrayEquals(expected, sorting.sortAscending(unordered));
   }
 
