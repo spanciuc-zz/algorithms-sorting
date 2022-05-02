@@ -64,7 +64,7 @@ public interface Sorting {
    *     - the array to be sorted.
    * @param <T>
    *     type of the elements in the array.
-   * @return sorted array.
+   * @return new array instance with sorted elements.
    *
    * @throws NullPointerException
    *     if the given array is null.
@@ -80,7 +80,7 @@ public interface Sorting {
    *     - the array to be sorted.
    * @param <T>
    *     type of the elements in the array.
-   * @return sorted array.
+   * @return @return new array instance with sorted elements.
    *
    * @throws NullPointerException
    *     if the given array is null.
@@ -94,7 +94,7 @@ public interface Sorting {
    *     - the array to be sorted.
    * @param <T>
    *     type of the elements in the array.
-   * @return sorted array.
+   * @return @return new array instance with sorted elements.
    *
    * @throws NullPointerException
    *     if the given array is null.
