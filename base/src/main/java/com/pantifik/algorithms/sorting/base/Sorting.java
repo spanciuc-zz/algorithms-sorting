@@ -69,7 +69,9 @@ public interface Sorting {
    * @throws NullPointerException
    *     if the given array is null.
    */
-  <T extends Comparable<T>> T[] sort(T[] array);
+  default <T extends Comparable<T>> T[] sort(T[] array) {
+    return this.sortAscending(array);
+  }
 
   /**
    * Sorts the given array in ascending order.

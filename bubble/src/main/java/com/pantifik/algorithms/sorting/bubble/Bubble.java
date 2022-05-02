@@ -13,11 +13,6 @@ import java.util.Objects;
 public class Bubble implements Sorting {
 
   @Override
-  public <T extends Comparable<T>> T[] sort(T[] array) {
-    return sortAscending(array);
-  }
-
-  @Override
   public <T extends Comparable<T>> T[] sortAscending(T[] array) {
     return doSort(array, Sorting.comparator());
   }
