@@ -11,6 +11,7 @@
         <module>bubble</module>
         <module>base</module>
         <module>selection</module>
+        <module>merge</module>
     </modules>
     <packaging>pom</packaging>
 
