@@ -10,6 +10,7 @@
     <modules>
         <module>bubble</module>
         <module>base</module>
+        <module>selection</module>
     </modules>
     <packaging>pom</packaging>
 
