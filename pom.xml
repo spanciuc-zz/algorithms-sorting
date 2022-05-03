@@ -13,6 +13,7 @@
         <module>selection</module>
         <module>merge</module>
         <module>quick</module>
+        <module>insertion</module>
     </modules>
     <packaging>pom</packaging>
 
