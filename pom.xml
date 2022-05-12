@@ -14,6 +14,7 @@
         <module>merge</module>
         <module>quick</module>
         <module>insertion</module>
+        <module>heap</module>
     </modules>
     <packaging>pom</packaging>
 
