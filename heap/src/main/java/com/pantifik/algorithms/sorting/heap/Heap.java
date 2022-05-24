@@ -10,6 +10,11 @@ import java.util.Objects;
  */
 public class Heap implements Sorting {
 
+  /**
+   * {@inheritDoc}
+   * <p>
+   * Complexity is O(nlog(n))
+   */
   @Override
   public <T extends Comparable<T>> T[] sortAscending(T[] array) {
     return doSort(array, Sorting.comparator());
@@ -55,7 +60,7 @@ public class Heap implements Sorting {
     int previousChildIndex = 2 * currentIndex;
     if (previousChildIndex == maxLength - 1) {
       moveWhenOneChild(result, currentIndex, comparator, previousChildIndex + 1);
-    } else if(previousChildIndex < maxLength - 1) {
+    } else if (previousChildIndex < maxLength - 1) {
       moveWhenTwoChilds(result, maxLength, currentIndex, comparator, previousChildIndex + 1,
           previousChildIndex + 2);
     }
