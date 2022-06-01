@@ -15,6 +15,7 @@
         <module>quick</module>
         <module>insertion</module>
         <module>heap</module>
+        <module>binary-insertion</module>
     </modules>
     <packaging>pom</packaging>
 
